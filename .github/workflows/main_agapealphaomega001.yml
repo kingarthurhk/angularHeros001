@@ -51,4 +51,4 @@ jobs:
         with:
           app-name: 'agapealphaomega001'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A5109A76DAAE4FFABC7ED8337E369238 }}
-          package: .
+          package: ./dist/angular-tour-of-heros
