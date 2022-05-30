@@ -50,6 +50,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'agapealphaomega001'
-          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A5109A76DAAE4FFABC7ED8337E369238 }}
-          package: .
+          package: ./dist/angularHeros001
